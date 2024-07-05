@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color:  #353535;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin-left: -20px;
+    height: 90px;
+}
+
+
+.bg-container{
+    background-color:  #353535;
+    height: 80vh;
+    width: 100vw;
+    padding: 0px 20px;
+}
+
+.Ellipse-4{
+    width: 100px;
+    margin-left: -4px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 7px;
+}
+.nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 540;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+}
+.nav button{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+    border-width: 0px;
+    border-radius: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 15px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.button-login{
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+
+
+.image-6{
+   width: 100%;
+   height: 616px;
+   margin-top: 70px;
+}
+
+#aboutus{
+    margin-top: 50px;
+    margin: 30px;
+}
+
+.about-title{
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.academy-name{
+    font-weight: 550;
+    margin-top: -10px;
+    color: red;
+    font-size: 26px;
+}
+
+.content{
+    font-size: 25px;
+    margin-top: -10px;
+    text-align: justify;
+}
+.courses{
+    font-size: 27px;
+    margin: 30px;
+    margin-top: -20px;
+}
+.karate{
+    text-decoration: underline;
+    text-align: end;
+    font-weight: 550;
+}
+.course-1{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.course-1_img img{
+    width: 400px;
+    height: 400px;
+}
+.course-1_content{
+    margin-left: -40px;
+    font-size: 25px;
+    text-align: justify;
+}
+.course-1 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: left;
+}
+.silambam{
+    margin-top: 45px;
+    text-decoration: underline;
+}
+.course-2{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+.course-2_content{
+    margin-right: -60px;
+    font-size: 25px;
+    text-align: justify;
+}
+.course-2_img img{
+    margin-top: -40px;
+    width: 380px;
+    height: 410px;
+}
+.course-2 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    margin-top: -10px;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: right;
+}
+.archery{
+    margin-top: 40px;
+    text-decoration: underline;
+    text-align: end;
+}
+.course-3{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.course-3_img img{
+    width: 400px;
+    height: 400px;
+}
+.course-3_content{
+    font-size: 25px;
+    text-align: justify;
+    margin-left: -40px;
+}
+.course-3 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: left;
+}
+.fitness{
+    margin-top: 45px;
+    text-decoration: underline;
+}
+.course-4{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+.course-4_content{
+    margin-top: -5px;
+    margin-right: -60px;
+    font-size: 25px;
+    text-align: justify;
+}
+.course-4_img img{
+    margin-top: -30px;
+    width: 380px;
+    height: 410px;
+}
+.course-4 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: right;
+}
+.yoga{
+    text-decoration: underline;
+    text-align: end;
+    margin-top: 45px;
+}
+.course-5{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+.course-5_img img{
+    width: 400px;
+    height: 400px;
+}
+.course-5_content{
+    font-size: 25px;
+    text-align: justify;
+    margin-left: -40px;
+}
+.course-5 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: left;
+}
+.kids_womens{
+    margin-top: 45px;
+    text-decoration: underline;
+}
+.course-6{
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+.course-6_content{
+    margin-top: -5px;
+    margin-right: -60px;
+    font-size: 25px;
+    text-align: justify;
+}
+.course-6_img img{
+    margin-top: -30px;
+    width: 380px;
+    height: 420px;
+}
+.course-6 button{
+    background-color: #212C4A;
+    color: aliceblue;
+    margin-top: -25px;
+    border-radius: 12px;
+    border-width: 0px;
+    height: 40px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: right;
+}
+
+.class-booking{
+    position: relative;
+    width: 1536px;
+    left: -20px;
+    z-index: -1;
+    font-size: 27px;
+}
+
+.booking{
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+.booking-content{
+    position: absolute;
+    font-size: 25px;
+    top: 130px;
+    left: 180px;
+    right: 180px;
+    text-align: justify;
+}
+
+.book{
+    text-decoration: underline;
+}
+.booking-img{
+    position: absolute;
+    top: 310px;
+    left: 140px;
+    display: grid;
+    grid-template-columns: 620px 620px;
+}
+.booking-img img{
+    width: 620px;
+    height: 310px;
+}
+.class-booking button{
+    background-color: aliceblue;
+    font-weight: 400;
+    border-width: 0px;
+    border-radius: 7px;
+    height: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 16px;
+    position: absolute;
+    top: 605px;
+    left: 710px;
+}
+.book-now{
+    position: absolute;
+    top: 940px;
+    right: 160px;
+    color: #E22929;
+}
+
+.mentor-details{
+    position: relative;
+    width: 1536px;
+    left: -20px;
+    z-index: -1;
+    top: -570px;
+    font-size: 27px;
+    height: 60px;
+}
+
+.mentor-bg{
+    margin-bottom: -30px;
+}
+
+.founder-photo{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    width: 350px;
+}
+.name{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    color: #C2B2B2;
+}
+.designtion{
+    position: absolute;
+    color: aliceblue;
+    top: 370px;
+    left: 160px;
+}
+.address{
+    position: absolute;
+    top: 380px;
+    left: 70px;
+    color: aliceblue;
+    margin-left: 500px;
+}
+.founder-address{
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    top: 420px;
+    left: 620px;
+    right: 65px;
+    text-align: justify;
+}
+.phoenix-cpy-rights{
+    position: absolute;
+    color: aliceblue;
+    top: 550px;
+    left: 60px;
+    font-size: 15px;
+}
+
+footer{
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+}
+
+.social-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.social-nav-list a{
+    color: aliceblue;
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #353535;
+}
+
+.select-classes{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.classes-bg{
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+}
+
+.indoor-outdoor p{
+    position: absolute;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: bolder;
+    top: 150px;
+    left: 620px;
+}
+
+.indoor-outdoor button{
+    position: absolute;
+    display: inline-block;
+    background-color: #FFFFFF99;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.indoor-button{
+    top: 250px;
+    left: 590px;
+    padding: 35px;
+    padding-left: 90px;
+    padding-right: 110px;
+}
+
+.outdoor-button{
+    top: 400px;
+    left: 590px;
+    padding: 35px;
+    padding-left: 90px;
+    padding-right: 90px;
+}

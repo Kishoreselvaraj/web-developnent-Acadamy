@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.join-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.join-now-page{
+    background-color: #383838;
+    height: 550px;
+    border-radius: 50px;
+    width: 60%;
+}
+
+.close-img{
+    width: 40px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.join-now-photo{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+}
+
+.join-bg{
+    width: 845px;
+    height: 160px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+
+.work-out-ph{
+    position: absolute;
+    top: 44px;
+    height: 270px;
+    right: 310px;
+}
+
+.join-now-form{
+    position: absolute;
+    top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 10px;
+}
+
+.join-now-form input{
+    width: 250px;
+    height: 30px;
+    padding-left: 19px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.calender{
+    position: absolute;
+    width: 30px;
+    top: 130px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.join-now-form button{
+    position: absolute;
+    font-size: 15px;
+    top: 190px;
+    left: 45%;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #000000;
+    color: #737373;
+    cursor: pointer;
+}

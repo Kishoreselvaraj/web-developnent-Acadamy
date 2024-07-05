@@ -1,0 +1,111 @@
+.booking-classes{
+    background-color: aqua;
+    font-size: 27px;
+    position: relative;
+    text-align: justify;
+    z-index: -1;
+}
+.booking{
+    position: absolute;
+    top:50px;
+    left: 60px;
+}
+.booking-content{
+    position: absolute;
+    font-size: 25px;
+    top: 100px;
+    left: 55px;
+    right: 30px;
+}
+
+.book{
+    text-decoration: underline;
+}
+.booking-img{
+    position: absolute;
+    top: 280px;
+    left: 45px;
+    display: grid;
+    grid-template-columns: 540px 540px;
+}
+.booking-img img{
+    width: 540px;
+    height: 250px;
+}
+.booking-classes button{
+    background-color: aliceblue;
+    font-weight: 400;
+    border-width: 0px;
+    border-radius: 7px;
+    height: 30px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-size: 16px;
+    position: absolute;
+    top: 515px;
+    left: 530px;
+}
+.book-now{
+    position: absolute;
+    top: 770px;
+    left: 50px;
+    color: #E22929;
+}
+.footer-bg{
+    position: absolute;
+    top: 850px;
+    left: -50px;
+}
+.founder-photo{
+    position: absolute;
+    top: 870px;
+    width: 350px;
+}
+.name{
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+    color: #C2B2B2;
+}
+.designtion{
+    position: absolute;
+    color: aliceblue;
+    top: 1250px;
+    left: 100px;
+}
+.address{
+    position: absolute;
+    top: 1200px;
+    color: aliceblue;
+    margin-left: 500px;
+}
+.founder-address{
+    position: absolute;
+    color: aliceblue;
+    font-size: 25px;
+    top: 1250px;
+    left: 500px;
+    text-align: justify;
+}
+.phoenix-cpy-rights{
+    position: absolute;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+footer{
+    position: absolute;
+    top: 1350px;
+}
+
+.social-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 850px;
+    margin-top: 60px;
+}
+
+.social-nav-list a{
+    color: aliceblue;
+}
